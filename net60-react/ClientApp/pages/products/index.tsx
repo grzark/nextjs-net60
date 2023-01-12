@@ -24,33 +24,26 @@ const Products: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/products/product-a">
-            <a className={styles.card}>
-              <h2>Documentation &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
+          <Link href="/products/product-a" className={styles.card}>
+            <h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
           </Link>
 
-          <Link href="/products/product-b">
-            <a className={styles.card}>
-              <h2>Learn &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
+          <Link href="/products/product-b" className={styles.card}>
+            <h2>Learn &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
           </Link>
 
-          <Link href="/products/product-c">
-            <a className={styles.card}>
-              <h2>Examples &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
+          <Link href="/products/product-c" className={styles.card}>
+            <h2>Examples &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
           </Link>
 
-          <Link href="/products/product-d">
-            <a className={styles.card}><h2>Deploy &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
-            </a>
+          <Link href="/products/product-d" className={styles.card}>
+            <h2>Deploy &rarr;</h2>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
           </Link>
         </div>
       </main>
